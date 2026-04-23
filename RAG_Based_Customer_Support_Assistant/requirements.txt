@@ -1,0 +1,25 @@
+# Core RAG dependencies
+langchain==0.2.16
+langchain-community==0.2.16
+langchain-openai==0.1.23
+langchain-chroma==0.1.4
+langgraph==0.2.28
+
+# Vector store
+chromadb==0.5.15
+
+# Document processing
+pypdf==4.3.1
+
+# Embeddings (open-source alternative to OpenAI)
+sentence-transformers==3.1.1
+
+# LLM (local alternative)
+ollama==0.3.3
+
+# Environment management
+python-dotenv==1.0.1
+
+# Utilities
+colorama==0.4.6
+rich==13.8.1
